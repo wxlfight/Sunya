@@ -19,12 +19,12 @@
 
 ## 技术栈概览 (Tech Stack Overview)
 
-本项目主要采用以下技术栈：
+本项目采用混合架构，主要技术选型包括：
 
-*   **后端:** Python (FastAPI)
-*   **数据库:** PostgreSQL
+*   **核心 BaaS:** Supabase (提供 PostgreSQL 数据库, Auth, Realtime, Storage 等)
+*   **自定义后端:** Python (FastAPI) - 用于复杂逻辑、第三方对接、AI 分析
 *   **前端:** React / Vue (待定)
-*   **任务队列:** Celery + Redis/RabbitMQ
+*   **任务队列 (可选):** Celery + Redis/RabbitMQ
 
 详细的技术架构和设计决策请参见 `DESIGN.md`。
 
