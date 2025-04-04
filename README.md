@@ -1,5 +1,12 @@
 # Sunya: AI and Emptiness
 
+`[Project Logo]` <!-- TODO: Add project logo here -->
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Project Status: WIP](https://img.shields.io/badge/status-WIP-orange.svg)](https://github.com/wxlfight/Sunya)
+<!-- [![Build Status](https://img.shields.io/github/actions/workflow/status/wxlfight/Sunya/ci.yml?branch=main)](https://github.com/wxlfight/Sunya/actions) --> <!-- TODO: Uncomment and configure when CI is set up -->
+<!-- [![Coverage Status](https://img.shields.io/codecov/c/github/wxlfight/Sunya)](https://codecov.io/gh/wxlfight/Sunya) --> <!-- TODO: Uncomment and configure when Codecov is set up -->
+
 ## Core Philosophy
 
 This project explores the possibility of combining the philosophical concept of "Emptiness" (Śūnyatā) with Artificial Intelligence (AI). "Emptiness" is understood here as a state of **profound tranquility**, where an individual can maintain distance from their emotions without being overwhelmed by them, thus observing and understanding reality more clearly.
