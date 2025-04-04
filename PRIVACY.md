@@ -1,70 +1,70 @@
-# Sunya 应用隐私政策 (Privacy Policy for Sunya Application)
+# Privacy Policy for Sunya Application
 
-**最后更新日期 (Last Updated):** 2025-04-04
+**Last Updated:** 2025-04-04
 
-欢迎使用 Sunya！我们致力于保护您的个人隐私。本隐私政策旨在说明我们如何收集、使用、存储和保护您通过连接 Garmin Connect 服务提供给我们的信息。
+Welcome to Sunya! We are committed to protecting your personal privacy. This Privacy Policy explains how we collect, use, store, and protect the information you provide to us by connecting your Garmin Connect service.
 
-请在使用 Sunya 应用前仔细阅读本政策。通过连接您的 Garmin Connect 账户并使用我们的服务，即表示您同意本隐私政策中所述的做法。
+Please read this policy carefully before using the Sunya application. By connecting your Garmin Connect account and using our services, you agree to the practices described in this Privacy Policy.
 
-## 1. 我们收集的信息 (Information We Collect)
+## 1. Information We Collect
 
-当您选择将您的 Garmin Connect 账户连接到 Sunya 时，我们会根据您的授权，通过 Garmin Connect API 收集以下类型的健康和活动数据：
+When you choose to connect your Garmin Connect account to Sunya, we collect the following types of health and activity data through the Garmin Connect API, based on your authorization:
 
-*   **活动数据:** 例如跑步、骑行、游泳等活动的类型、时间、距离、卡路里消耗、平均/最大心率、步频、位置（若授权）等。
-*   **日常健康指标:** 例如每日步数、距离、卡路里消耗、睡眠阶段（深睡、浅睡、REM、清醒）、静息心率、实时心率（若授权且可用）、压力水平、身体电量 (Body Battery) 等。
-*   **用户档案信息:** 可能包括您在 Garmin Connect 设置的部分基本信息（例如昵称，用于在应用中称呼您）。
+*   **Activity Data:** Such as type, time, distance, calories burned, average/max heart rate, cadence, location (if authorized), etc., for activities like running, cycling, swimming.
+*   **Daily Health Metrics:** Such as daily steps, distance, calories burned, sleep stages (deep, light, REM, awake), resting heart rate, real-time heart rate (if authorized and available), stress levels, Body Battery, etc.
+*   **User Profile Information:** May include some basic information you set up in Garmin Connect (e.g., nickname, used to address you in the app).
 
-我们**仅收集**实现 Sunya 应用核心功能所必需的数据，并会争取在请求授权时明确告知所需的数据范围。
+We **only collect** data necessary to implement the core features of the Sunya application and will strive to clearly inform you of the required data scope when requesting authorization.
 
-## 2. 我们如何使用您的信息 (How We Use Your Information)
+## 2. How We Use Your Information
 
-我们收集您的信息主要用于以下目的：
+We use the information we collect primarily for the following purposes:
 
-*   **提供核心功能:** 分析您的健康和活动数据，识别模式、趋势，并基于"空性"理念（客观呈现、引导观察）向您展示数据洞察。
-*   **个性化体验:** (未来可能) 根据您的数据和目标提供更个性化的反馈或建议。
-*   **应用改进:** 匿名化和聚合数据可能用于分析应用使用情况，以改进应用功能和用户体验（我们会在实施前明确说明并提供选项）。
-*   **与您沟通:** 向您发送与服务相关的重要通知（例如，隐私政策更新）。
+*   **Provide Core Functionality:** To analyze your health and activity data, identify patterns and trends, and present data insights to you based on the concept of "Emptiness" (objective presentation, guiding observation).
+*   **Personalize Experience:** (Potentially in the future) To provide more personalized feedback or suggestions based on your data and goals.
+*   **Application Improvement:** Anonymized and aggregated data may be used to analyze application usage to improve features and user experience (we will clearly state this and provide options before implementation).
+*   **Communicate With You:** To send you important service-related notifications (e.g., updates to this Privacy Policy).
 
-## 3. 数据存储与安全 (Data Storage and Security)
+## 3. Data Storage and Security
 
-*   您授权的 Garmin 数据将被存储在我们使用的安全云数据库中（例如 Supabase PostgreSQL）。
-*   我们会采取行业标准的安全措施来保护您的数据，防止未经授权的访问、泄露、篡改或破坏，包括但不限于数据传输加密 (HTTPS)、数据库访问控制、敏感凭证（如 Garmin Token）加密存储等。
-*   但请理解，没有任何网络传输或电子存储方法是 100% 安全的。我们无法保证数据的绝对安全。
+*   Your authorized Garmin data will be stored in secure cloud databases we use (e.g., Supabase PostgreSQL).
+*   We implement industry-standard security measures to protect your data from unauthorized access, disclosure, alteration, or destruction. These include, but are not limited to, data transmission encryption (HTTPS), database access control, and encryption of sensitive credentials (like Garmin Tokens).
+*   However, please understand that no method of transmission over the internet or electronic storage is 100% secure. We cannot guarantee the absolute security of your data.
 
-## 4. 数据共享与披露 (Data Sharing and Disclosure)
+## 4. Data Sharing and Disclosure
 
-我们高度重视您的隐私。我们承诺：
+We highly value your privacy. We commit that:
 
-*   **不会**将您的个人身份信息或可识别的原始健康数据出售、出租或交易给任何第三方。
-*   **不会**未经您的明确同意，与第三方共享您的个人数据，除非是法律法规强制要求、执行我们的服务条款或保护我们、其他用户或公众的权利、财产或安全所必需的情况。
-*   如果未来需要与第三方服务（例如用于更高级分析的 AI 服务）共享数据，我们会提前通知您，解释共享的目的和范围，并征得您的同意。
-*   我们可能会使用或共享**匿名化、聚合化**的数据（即无法识别到具体个人的数据）用于研究、统计分析或改进服务。
+*   We will **not** sell, rent, or trade your personally identifiable information or identifiable raw health data to any third party.
+*   We will **not** share your personal data with third parties without your explicit consent, unless required by law or regulation, to enforce our terms of service, or to protect the rights, property, or safety of ourselves, other users, or the public.
+*   If future features require sharing data with third-party services (e.g., AI services for advanced analysis), we will notify you in advance, explain the purpose and scope of sharing, and obtain your consent.
+*   We may use or share **anonymized, aggregated** data (i.e., data that cannot identify you specifically) for research, statistical analysis, or service improvement.
 
-## 5. 您的权利 (Your Rights)
+## 5. Your Rights
 
-您对您的数据拥有控制权：
+You have control over your data:
 
-*   **访问与查看:** 您可以在 Sunya 应用内查看我们从 Garmin Connect 获取并存储的数据。
-*   **断开连接:** 您可以随时在 Sunya 应用内或通过 Garmin Connect 平台断开 Sunya 应用与您 Garmin 账户的连接。断开后，我们将停止收集您的新数据。
-*   **数据删除:** 您可以请求删除我们存储的您的个人数据。请通过下面的联系方式与我们联系。在验证您的身份后，我们将根据适用法律的要求删除您的数据（除非有法律义务需要我们保留）。
+*   **Access and Review:** You can view the data we have collected from Garmin Connect and stored within the Sunya application.
+*   **Disconnect:** You can disconnect the Sunya application from your Garmin account at any time, either within the Sunya app or through the Garmin Connect platform. Upon disconnection, we will stop collecting new data from you.
+*   **Data Deletion:** You can request the deletion of your personal data stored by us. Please contact us using the details below. After verifying your identity, we will delete your data as required by applicable law (unless we have a legal obligation to retain it).
 
-## 6. 第三方服务 (Third-Party Services)
+## 6. Third-Party Services
 
-本应用依赖 Garmin Connect API。您使用 Garmin Connect 的服务受其自身的隐私政策和条款约束。我们不对 Garmin 或任何其他第三方服务的隐私实践负责。
+This application relies on the Garmin Connect API. Your use of Garmin Connect services is governed by their own privacy policies and terms. We are not responsible for the privacy practices of Garmin or any other third-party services.
 
-## 7. 儿童隐私 (Children's Privacy)
+## 7. Children's Privacy
 
-Sunya 应用不适用于 13 岁以下的儿童（或您所在地区规定的更高年龄）。我们不会故意收集儿童的个人信息。如果您认为我们可能收集了儿童的信息，请与我们联系。
+Sunya is not intended for children under the age of 13 (or a higher age as stipulated in your region). We do not knowingly collect personal information from children. If you believe we may have collected information from a child, please contact us.
 
-## 8. 隐私政策的变更 (Changes to This Privacy Policy)
+## 8. Changes to This Privacy Policy
 
-我们可能会不时更新本隐私政策。如果我们做出重大变更，我们会通过应用内通知或您提供的联系方式通知您。我们鼓励您定期查看本政策以了解最新信息。
+We may update this Privacy Policy from time to time. If we make significant changes, we will notify you through the application or via the contact information you have provided. We encourage you to review this policy periodically for the latest information.
 
-## 9. 联系我们 (Contact Us)
+## 9. Contact Us
 
-如果您对本隐私政策有任何疑问、意见或疑虑，或者希望行使您的数据权利，请通过以下方式与我们联系：
+If you have any questions, comments, or concerns about this Privacy Policy, or wish to exercise your data rights, please contact us:
 
-*   **邮箱:** [请在此处填入您的联系邮箱地址，例如 project.sunya.contact@email.com]
-*   **(可选) GitHub Issues:** 您也可以在我们的 GitHub 项目仓库中通过 Issue 提出与隐私相关的问题：[请在此处填入您的 GitHub 项目 Issues 链接，例如 https://github.com/wxlfight/Sunya/issues]
+*   **Email:** hiccuploong@gmail.com
+*   **(Optional) GitHub Issues:** You can also raise privacy-related questions via Issues in our GitHub repository: https://github.com/wxlfight/Sunya/issues
 
-感谢您信任 Sunya！ 
+Thank you for trusting Sunya! 
