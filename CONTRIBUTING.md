@@ -63,6 +63,19 @@ We follow specific rules for Git commit messages to ensure clarity, consistency,
     Closes #55
     ```
 
+## Git User Configuration
+
+To ensure your contributions are correctly attributed on GitHub, please configure your local Git `user.name` and `user.email` to match the name and email associated with your GitHub account.
+
+You can set this for the current repository using:
+
+```bash
+git config user.name "Your GitHub Username or Name"
+git config user.email "your.github.email@example.com"
+```
+
+Replace the placeholder values with your actual information.
+
 ## Code Style (To Be Determined)
 
 We will establish and enforce a consistent code style using linters and formatters appropriate for the chosen programming languages. Details will be added here once decided.

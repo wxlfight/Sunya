@@ -14,7 +14,19 @@
 
 ## 当前状态 (Current Status)
 
-项目处于早期构思与设计阶段。
+*   项目处于早期构思与设计阶段 (2025-04-04)。
+*   **初步焦点:** 围绕**健康数据**（特别是运动手表/手环数据）构建 MVP，优先对接 **Garmin**。
+
+## 技术栈概览 (Tech Stack Overview)
+
+本项目主要采用以下技术栈：
+
+*   **后端:** Python (FastAPI)
+*   **数据库:** PostgreSQL
+*   **前端:** React / Vue (待定)
+*   **任务队列:** Celery + Redis/RabbitMQ
+
+详细的技术架构和设计决策请参见 `DESIGN.md`。
 
 ## 协作与文档 (Collaboration & Documentation)
 
