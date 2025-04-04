@@ -4,5 +4,5 @@ uvicorn[standard]>=0.20.0 # Includes standard dependencies like watchfiles for r
 # For loading .env file
 python-dotenv>=1.0.0
 
-# Supabase client library (optional but recommended for backend usage)
-# supabase>=1.0.0 # We can add this later when we start interacting with Supabase 
+# Supabase client library
+supabase>=1.0.0 # Using version 1.x 
