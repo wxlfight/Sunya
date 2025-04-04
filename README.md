@@ -1,39 +1,48 @@
-# Sunya: AI 与空性 (AI and Emptiness)
+# Sunya: AI and Emptiness
 
-## 核心理念 (Core Philosophy)
+## Core Philosophy
 
-本项目旨在探索将"空性"（Śūnyatā）哲学理念与人工智能（AI）相结合的可能性。"空性"在此理解为一种**深邃的宁静**状态，个体能够与自身情绪保持距离，不被其裹挟，从而更清晰地观察和理解现实。
+This project explores the possibility of combining the philosophical concept of "Emptiness" (Śūnyatā) with Artificial Intelligence (AI). "Emptiness" is understood here as a state of **profound tranquility**, where an individual can maintain distance from their emotions without being overwhelmed by them, thus observing and understanding reality more clearly.
 
-项目的核心是创建一个 AI 应用，作为用户"另一个我"的数字化体现——一个"空性的我"。
+The core idea is to create an AI application that serves as a digital manifestation of the user's "other self" – an "Emptiness Self".
 
-## 项目目标 (Project Goal)
+## Project Goals
 
-1.  **数据采集 (Data Acquisition):** 收集用户在现实世界中的行为数据和主观体验记录（例如：日记、情绪反馈、事件描述）。
-2.  **AI 分析与建模 (AI Analysis & Modeling):** 利用 AI 分析收集到的数据，识别用户的情绪模式、行为习惯和反应触发器。训练 AI 模型以模拟"空性"视角。
-3.  **"空性"呈现 (Presentation of Emptiness):** 通过应用界面，向用户呈现一个更客观、更少情绪色彩的视角，可能是通过重述事件、提供反思性对话或展示行为模式分析。最终目标是帮助用户更好地理解自己，并探索与情绪保持距离的实践。
+1.  **Data Acquisition:** Collect user behavioral data and subjective experience records from the real world (e.g., journals, mood feedback, event descriptions).
+2.  **AI Analysis & Modeling:** Utilize AI to analyze the collected data, identifying the user's emotional patterns, behavioral habits, and reaction triggers. Train AI models to simulate the "Emptiness" perspective.
+3.  **Presentation of Emptiness:** Through the application interface, present the user with a more objective, less emotionally colored perspective, possibly by rephrasing events, offering reflective dialogue, or displaying analyses of behavioral patterns. The ultimate goal is to help users better understand themselves and explore the practice of maintaining distance from emotions.
 
-## 当前状态 (Current Status)
+## Current Status
 
-*   项目处于早期构思与设计阶段 (2025-04-04)。
-*   **初步焦点:** 围绕**健康数据**（特别是运动手表/手环数据）构建 MVP，优先对接 **Garmin**。
+*   The project is in the early ideation and design phase (as of 2025-04-04).
+*   **Initial Focus:** Building an MVP centered around **health data** (specifically from sports watches/bands), prioritizing integration with **Garmin**.
 
-## 技术栈概览 (Tech Stack Overview)
+## Tech Stack Overview
 
-本项目采用混合架构，主要技术选型包括：
+The project employs a hybrid architecture with the following main technologies:
 
-*   **核心 BaaS:** Supabase (提供 PostgreSQL 数据库, Auth, Realtime, Storage 等)
-*   **自定义后端:** Python (FastAPI) - 用于复杂逻辑、第三方对接、AI 分析
-*   **前端:** React / Vue (待定)
-*   **任务队列 (可选):** Celery + Redis/RabbitMQ
+*   **Core BaaS:** Supabase (providing PostgreSQL DB, Auth, Realtime, Storage, etc.)
+*   **Custom Backend:** Python (FastAPI) - for complex logic, third-party integrations, AI analysis.
+*   **Frontend:** React / Vue (To be decided)
+*   **Task Queue (Optional):** Celery + Redis/RabbitMQ
 
-详细的技术架构和设计决策请参见 `DESIGN.md`。
+For detailed technical architecture and design decisions, please refer to `DESIGN.md`.
 
-## 协作与文档 (Collaboration & Documentation)
+## Collaboration & Documentation
 
-本项目采用 AI 与人类协作的模式进行开发。为了保持长期项目的清晰度和上下文记忆，我们将维护以下核心文档：
+This project is developed through AI-human collaboration. To maintain clarity and contextual memory over the long term, we maintain the following core documents:
 
-*   `README.md`: 本文件，提供项目概览。
-*   `DESIGN.md`: 记录关键的设计决策、架构和功能规格。
-*   `DECISIONS.md`: 记录项目过程中的重要决策点及其理由。
+*   `README.md`: This file, providing a project overview.
+*   `DESIGN.md`: Records key design decisions, architecture, and functional specifications.
+*   `DECISIONS.md`: Logs important project decisions and their rationale.
+*   `PRINCIPLES.md`: Outlines the core principles guiding development and collaboration.
 
-文档编写将优先考虑 AI友好性（清晰、结构化、精确），同时确保人类可读性。我们鼓励坦诚、建设性的沟通，将 AI 视为队友而非执行者。
+Documentation prioritizes AI-friendliness (clarity, structure, precision) while ensuring human readability. We encourage open, constructive communication, viewing the AI as a teammate rather than just an executor.
+
+## Contributing
+
+Please refer to `CONTRIBUTING.md` for guidelines on how to contribute to this project, including commit message conventions and code style (when defined).
+
+## Privacy
+
+Our commitment to your privacy is outlined in the `PRIVACY.md` file.
