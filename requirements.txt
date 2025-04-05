@@ -6,3 +6,6 @@ python-dotenv>=1.0.0
 
 # Supabase client library
 supabase>=1.0.0 # Using version 1.x 
+
+# Unofficial Garmin Connect library
+garminconnect>=0.1.40 # Use a specific recent version 
