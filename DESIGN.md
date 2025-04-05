@@ -58,7 +58,13 @@ graph TD
 
 ### 数据源策略
 
-*   保持不变：起点为 Garmin，采用适配器模式。
-*   **实现细节:** 数据采集适配器将由 FastAPI 服务实现，获取数据后写入 Supabase PostgreSQL 数据库。
+*   **起点:** 优先实现 **Garmin Connect** 数据对接。
+*   **实现方式 (重要变更):** 由于 Garmin 官方 Health API 申请门槛高，我们将采用**非官方 Python 库 `cyberjunky/python-garminconnect`**。该库通过模拟用户登录和抓取 Garmin Connect 网站数据工作。
+*   **重大风险:**
+    *   **脆弱性:** 该方法依赖网站结构，Garmin 更新可能导致服务中断。
+    *   **违反 ToS:** 可能违反 Garmin 服务条款，存在账户风险。
+    *   **安全责任:** 需要处理用户 Garmin 用户名/密码，必须采取严格的安全措施（如加密存储）。
+*   **适配器模式:** 数据采集适配器仍将由 FastAPI 服务实现，负责调用 `python-garminconnect` 库，处理认证（用户名/密码），获取数据，并将其转换为统一模型写入 Supabase 数据库。
+*   **未来扩展:** 设计上仍考虑适配器模式，以便未来可能接入 Google Fit, Apple HealthKit 等官方 API。
 
 *(此文档将在项目进展中逐步填充)* 

@@ -22,7 +22,8 @@ The core idea is to create an AI application that serves as a digital manifestat
 ## Current Status
 
 *   The project is in the early ideation and design phase (as of 2025-04-04).
-*   **Initial Focus:** Building an MVP centered around **health data** (specifically from sports watches/bands), prioritizing integration with **Garmin**.
+*   **Initial Focus:** Building an MVP centered around **health data**, prioritizing integration with **Garmin Connect**.
+*   **Important Note on Garmin Integration:** Due to restrictions with the official Garmin Health API, this project currently uses an **unofficial library** (`python-garminconnect`) that works by simulating user login to the Garmin Connect website. This method carries inherent risks, including potential service disruption if Garmin updates their website and potential violation of Garmin's Terms of Service. Users will be required to provide their Garmin username and password and should be fully aware of these risks. See `DESIGN.md` for more details.
 
 ## Tech Stack Overview
 
